@@ -1,0 +1,8 @@
+body {
+    display: flexbox;
+    margin: 0px;
+}
+h1{
+    text-align: left;
+    background-color: blue;
+}
