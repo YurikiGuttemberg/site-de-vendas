@@ -1,8 +1,26 @@
-body {
-    display: flexbox;
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
-h1{
-    text-align: left;
-    background-color: blue;
-}
+nav{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+    background: rgb(34,193,195);
+    background: linear-gradient(267deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+   }
+   body{
+    background: rgb(34,193,195);
+    background: linear-gradient(267deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+   }
+   footer{
+    
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    
+   }
